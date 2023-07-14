@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E44921FD2A5D04C100248AC4 /* LoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44921FC2A5D04C100248AC4 /* LoggedInView.swift */; };
+		E44922032A5D4B3500248AC4 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44922022A5D4B3500248AC4 /* LoginPageView.swift */; };
+		E44922052A5D50CB00248AC4 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44922042A5D50CB00248AC4 /* MainViewViewModel.swift */; };
 		E4A964ED2A57C12100C3A0BB /* LoginPageUmai_SwiftUI_MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A964EC2A57C12100C3A0BB /* LoginPageUmai_SwiftUI_MVVMApp.swift */; };
-		E4A964EF2A57C12100C3A0BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A964EE2A57C12100C3A0BB /* ContentView.swift */; };
+		E4A964EF2A57C12100C3A0BB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A964EE2A57C12100C3A0BB /* MainView.swift */; };
 		E4A964F12A57C12300C3A0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A964F02A57C12300C3A0BB /* Assets.xcassets */; };
 		E4A964F52A57C12300C3A0BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A964F42A57C12300C3A0BB /* Preview Assets.xcassets */; };
+		E4A964FC2A5805D600C3A0BB /* ContenViewFigma.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A964FB2A5805D600C3A0BB /* ContenViewFigma.swift */; };
+		E4E5B2B72A5BE6A60006810C /* loginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E5B2B62A5BE6A60006810C /* loginViewModel.swift */; };
+		E4E5B2B92A5BEA0B0006810C /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E5B2B82A5BEA0B0006810C /* userModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E44921FC2A5D04C100248AC4 /* LoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInView.swift; sourceTree = "<group>"; };
+		E44922022A5D4B3500248AC4 /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
+		E44922042A5D50CB00248AC4 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 		E4A964E92A57C12100C3A0BB /* LoginPageUmai_SwiftUI_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPageUmai_SwiftUI_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A964EC2A57C12100C3A0BB /* LoginPageUmai_SwiftUI_MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageUmai_SwiftUI_MVVMApp.swift; sourceTree = "<group>"; };
-		E4A964EE2A57C12100C3A0BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4A964EE2A57C12100C3A0BB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E4A964F02A57C12300C3A0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4A964F22A57C12300C3A0BB /* LoginPageUmai_SwiftUI_MVVM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginPageUmai_SwiftUI_MVVM.entitlements; sourceTree = "<group>"; };
 		E4A964F42A57C12300C3A0BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4A964FB2A5805D600C3A0BB /* ContenViewFigma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenViewFigma.swift; sourceTree = "<group>"; };
+		E4E5B2B62A5BE6A60006810C /* loginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewModel.swift; sourceTree = "<group>"; };
+		E4E5B2B82A5BEA0B0006810C /* userModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E44921FF2A5D4AAF00248AC4 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				E4A964EE2A57C12100C3A0BB /* MainView.swift */,
+				E44922022A5D4B3500248AC4 /* LoginPageView.swift */,
+				E44921FC2A5D04C100248AC4 /* LoggedInView.swift */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		E44922002A5D4AB800248AC4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E4E5B2B62A5BE6A60006810C /* loginViewModel.swift */,
+				E44922042A5D50CB00248AC4 /* MainViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E44922012A5D4AD500248AC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4E5B2B82A5BEA0B0006810C /* userModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E4A964E02A57C12100C3A0BB = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +91,11 @@
 		E4A964EB2A57C12100C3A0BB /* LoginPageUmai_SwiftUI_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				E44922012A5D4AD500248AC4 /* Models */,
+				E44922002A5D4AB800248AC4 /* ViewModels */,
+				E44921FF2A5D4AAF00248AC4 /* VIews */,
 				E4A964EC2A57C12100C3A0BB /* LoginPageUmai_SwiftUI_MVVMApp.swift */,
-				E4A964EE2A57C12100C3A0BB /* ContentView.swift */,
+				E4A964FB2A5805D600C3A0BB /* ContenViewFigma.swift */,
 				E4A964F02A57C12300C3A0BB /* Assets.xcassets */,
 				E4A964F22A57C12300C3A0BB /* LoginPageUmai_SwiftUI_MVVM.entitlements */,
 				E4A964F32A57C12300C3A0BB /* Preview Content */,
@@ -139,8 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A964EF2A57C12100C3A0BB /* ContentView.swift in Sources */,
+				E4A964EF2A57C12100C3A0BB /* MainView.swift in Sources */,
+				E44921FD2A5D04C100248AC4 /* LoggedInView.swift in Sources */,
+				E44922032A5D4B3500248AC4 /* LoginPageView.swift in Sources */,
+				E4E5B2B72A5BE6A60006810C /* loginViewModel.swift in Sources */,
+				E4E5B2B92A5BEA0B0006810C /* userModel.swift in Sources */,
 				E4A964ED2A57C12100C3A0BB /* LoginPageUmai_SwiftUI_MVVMApp.swift in Sources */,
+				E44922052A5D50CB00248AC4 /* MainViewViewModel.swift in Sources */,
+				E4A964FC2A5805D600C3A0BB /* ContenViewFigma.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

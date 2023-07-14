@@ -11,7 +11,7 @@ import SwiftUI
 struct LoginPageUmai_SwiftUI_MVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
