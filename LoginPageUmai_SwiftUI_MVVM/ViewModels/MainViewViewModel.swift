@@ -10,6 +10,6 @@ import Foundation
 
 class MainViewViewModel: ObservableObject{
     
-
+//mainView ViewModel
     
 }
